@@ -1,0 +1,23 @@
+{
+  "name": "publish",
+  "author": {
+    "name": "gele.qing",
+    "email": "fanerstar@gmail.com"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "pkg .",
+    "debug": "cross-env DEBUG=*  node .",
+    "start":"node ."
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "ssh2-utils": "^1.0.28"
+  },
+  "resolutions": {
+    "nexe/fuse-box": "3.1.0"
+  }
+}
